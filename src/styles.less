@@ -1,1 +1,38 @@
 /* You can add global styles to this file, and also import other style files */
+@import "primeng/resources/themes/lara-light-blue/theme.css";
+@import "primeng/resources/primeng.css";
+@primaryBackground : #052E76;
+body{
+    margin: 0px
+}
+p{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.primaryBackground{
+    background-color: @primaryBackground;
+}
+.centerWord{
+    text-align: center;
+    margin:auto 0;
+}
+.textWhite{
+    color: white;
+}
+.footerWordWrapper{
+    vertical-align: middle;
+    height: 100%;
+ 
+}
+.outsideContentWrapper{
+    padding: 5rem;
+}
+.contentWrapper{
+    display: flex;
+    // width: 1248px;
+    padding: 16px 24px 24px 24px;
+    flex-direction: column;
+    align-items: flex-start;
+    border-radius: 0px 8px 8px 8px;
+    border: 1px solid var(--neutral-40, #E0E0E0);
+
+}
